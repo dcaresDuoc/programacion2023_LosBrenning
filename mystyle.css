@@ -1,3 +1,9 @@
+body{
+    background-color: lightblue;
+}
+
 p{
     color: black;
+    margin-left: 20 px;
+
 }
