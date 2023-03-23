@@ -1,9 +1,11 @@
 body{
-    background-color: black;
+    background-color: lightblue;
 }
-
+h1{
+    color: black;
+}
 p{
-    color: lightblue;
+    color: red ;
     margin-left: 20 px;
 
 }
