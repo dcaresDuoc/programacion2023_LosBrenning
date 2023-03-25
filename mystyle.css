@@ -1,0 +1,12 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: black;
+}
+p{
+    color: red ;
+    margin-left: 20 px;
+    margin-right: 20 px;
+    padding-left: 5 px;
+}
