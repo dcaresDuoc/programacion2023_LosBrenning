@@ -8,6 +8,7 @@ p{
     color: red ;
     margin-left: 20 px;
     margin-right: 20 px;
-    padding-left: 5 px;
-    padding-right: 5 px;
+    padding-left: 10 px;
+    padding-right: 10 px;
+    border-bottom-color: blue;
 }
