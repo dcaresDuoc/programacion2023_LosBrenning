@@ -3,6 +3,7 @@ body{
 }
 h1{
     color: black;
+    align-items: center;
 }
 p{
     color: red ;
