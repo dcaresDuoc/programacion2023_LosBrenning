@@ -1,10 +1,12 @@
+
 body{
-    background-color: lightblue;
+    background-color: rgb(142, 141, 141);
 }
 h1{
-    color: black;
-    align-items: center;
+    color: lightgray;
+    text-align: center;
 }
+
 p{
     color: red ;
     margin-left: 20 px;
@@ -12,4 +14,13 @@ p{
     padding-left: 10 px;
     padding-right: 10 px;
     border-bottom-color: blue;
+}
+.nav{
+    color:lightgray 
+}
+.footer{
+    color: lightgray;
+}
+.categorias{
+    color: lightgray;
 }
