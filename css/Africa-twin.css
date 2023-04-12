@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 body{
@@ -46,45 +46,49 @@ body{
 }
 
 #m1{
-	width: 25%;
-	height: 350px;
-	margin-left: 5%;
+	width: 60%;
+	height: 200px;
+	margin-top: 0;
+	float:left;
+	text-align:center;
+    font-size: 28px;
+    font-family:'Monserrat' sans-serif;
+    color: black;
+    max-height: 100px;
+}
+
+#descripcion310{
+	width: 30%;
+	height: 200px;
 	margin-top: 1%;
 	float: left;
 	text-align: center;
     font-size: 28px;
-    font-family: 'Monsterrat' sans-serif;
+    font-family: 'Monserrat'sans-serif;
     color: black;
 }
-
+#descripcion1{
+	width: 50%;
+	height: 200px;
+	margin-top: 1%;
+  margin-left: 10%;
+	float: left;
+	text-align: left;
+    font-size: 20px;
+    font-family: 'Monserrat' sans-serif;
+    color: black;
+}
 #m2{
-	width: 25%;
-	height: 350px;
-	margin-left: 8%;
-	margin-top: 1%;
-	float: left;
-	text-align: center;
-    font-size: 28px;
-    font-family: 'Monsterrat' sans-serif;
-    color: black;
+    opacity: 25%;
+    height: 50%;
+	height: auto;
+	margin-top: 35%;
+  	float: right;
+	text-align: right;
 }
 
-#m3{
-	width: 25%;
-	height: 350px;
-	margin-left: 8%;
-	margin-top: 1%;
-	float: left;
-	text-align: center;
-    font-size: 28px;
-    font-family: 'Monsterrat' sans-serif;
-    color: black;
-}
+.footer {
 
-.footer{
-    display: flex;
-    background-color:  rgb(120, 1, 22);
-    
 }
 
 .logo{
