@@ -55,7 +55,6 @@ body{
     font-family: georgia;
     color: black;
 }
-
 #descripcion310{
 	width: 30%;
 	height: 200px;
@@ -76,6 +75,21 @@ body{
     font-size: 28px;
     font-family: georgia;
     color: black;
+}
+#descripcion2{
+	width: 65%;
+	height: 200px;
+	margin-top: 1%;
+	float: left;
+	text-align: left;
+}
+#m2{
+	width: 30%;
+	height: 200px;
+	float : right; 
+  margin-top: 8%;
+  margin-right: 10%;
+  
 }
 
 
