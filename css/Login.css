@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
@@ -29,11 +28,7 @@ body{
         max-height: 39rem;
 }
 
-.a{
-    text-decoration: none;
-    color: black;
 
-}
 
 .header{
     display: flex;
@@ -75,73 +70,58 @@ body{
   width: 90vw;
 }
 
-.panel {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-  border-radius: 50px;
-  color: #fff;
-  cursor: pointer;
-  flex: 0.5;
-  margin: 10px;
-  position: relative;
-  --webkit-transition: all 700ms ease-in;
+* {
+	box-sizing: border-box;
 }
 
-.panel h3 {
-  font-size: 24px;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  margin: 0;
-  opacity: 0;
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
 }
 
-.panel.active {
-  flex: 5;
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
-.panel.active h3 {
-  opacity: 1;
-  transition: opacity 0.3s ease-in 0.4s;
+h1 {
+	text-align: center;
+	margin-bottom: 15px;
+	color: #333;
 }
 
-
-@media (max-width:450px){
-    header{
-        flex-direction: column;
-    }
-    nav{
-        padding: 10 px 0px;
-    }
-
-      .container {
-    width: 100vw;
-  }
-
-  .panel:nth-of-type(4),
-  .panel:nth-of-type(5) {
-    display: none;
-  }
+label {
+	display: block;
+	margin-bottom: 8px;
+	color: #666;
 }
 
-.revestimiento {
-  min-height: 60vh;
-  position: relative;
-  background-size: cover; }
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
 
-.interno {
-  position: absolute; 
-  top: 25%;
-  left: 2%;
-  transform: translateY(-50%);
-  width: 360px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  background: url("../images/bg-inner.png") repeat;
-  padding: 10px; }
+button {
+	background-color:rgb(120, 1, 22);
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(120, 1, 22);
+}
+
+.container .registro{
+  color: white;
+}
 
