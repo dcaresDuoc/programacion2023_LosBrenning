@@ -14,10 +14,11 @@ try{
     $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERROMODE_WARNING);
 
-    
-    echo json_encode('usuario')
-    echo json_encode('nombre')
-    echo json_encode('contraseña')
+    $pdo = $conexion->prepare('INSERT INTO usuarios(usuario,nombre,contraseña) VALUES (?, ?, ?)');
+    $pdo->bindParam(1,$usuario);
+    $pdo->bindParam(2,$nombre);
+    $pdo->bindParam(3,$contraseña);
+    $pdo->execute() or die (print($pdo->errorInfo())); 
     
 }catch(PDOException $error){
     echo $error -> getMessage();
