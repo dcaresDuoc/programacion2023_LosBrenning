@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Insertar los datos en la tabla
-    $sql = "INSERT INTO tabla (usuario, nombre, contraseña) VALUES ('$usuario', '$nombre', '$contraseña')";
+    $sql = "INSERT INTO usuarios (usuario, nombre, contraseña) VALUES ('$usuario', '$nombre', '$contraseña')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Datos guardados correctamente";
