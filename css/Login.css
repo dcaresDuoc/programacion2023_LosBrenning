@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> egenau
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
@@ -25,12 +28,21 @@ body{
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .a{
     text-decoration: none;
     color: black;
 
 }
 
+=======
+.carousel-inner {
+        max-height: 39rem;
+}
+
+
+
+>>>>>>> egenau
 .header{
     display: flex;
     min-height: 70px;
@@ -71,6 +83,7 @@ body{
   width: 90vw;
 }
 
+<<<<<<< HEAD
 .panel {
   background-size: cover;
   background-position: center;
@@ -144,4 +157,60 @@ body{
     height: 100%;
     padding: 40px 40px 40px;
     background: #ffffff; }
+=======
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+button {
+	background-color:rgb(120, 1, 22);
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(120, 1, 22);
+}
+
+.container .registro{
+  color: white;
+}
+>>>>>>> egenau
 
