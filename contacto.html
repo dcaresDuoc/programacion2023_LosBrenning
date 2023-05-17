@@ -72,12 +72,23 @@
               <td><textarea id="mensaje" name="mensaje" rows="2" required></textarea></td>
             </tr>
             <tr>
-              <td><label for="opciones">Opciones:</label></td>
+              <td><label for="opcion1">Tipo de motocicleta:</label></td>
               <td>
-                <select id="opciones" name="opciones">
-                  <option value="opcion1">Opción 1</option>
-                  <option value="opcion2">Opción 2</option>
-                  <option value="opcion3">Opción 3</option>
+                <select id="opcion1" name="opcion1" onchange="mostrarSegundaLista(this.value)">
+                  <option value="">Seleccionar</option>
+                  <option value="urbanas">Urbanas</option>
+                  <option value="vintage">Vintage</option>
+                  <option value="hyper-naked">Hyper Naked</option>
+                  <option value="adventure-touring">Adventure Touring</option>
+                  <option value="scooters">Scooters</option>
+                </select>
+              </td>
+            </tr>
+            <tr id="segundaListaRow" style="display: none;">
+              <td><label for="opcion2">Modelo de motocicleta:</label></td>
+              <td>
+                <select id="opcion2" name="opcion2">
+                  <option value="">Seleccionar</option>
                 </select>
               </td>
             </tr>
@@ -86,6 +97,10 @@
             </tr>
           </table>
         </form>
+        
+        <script src="js/contacto.js"></script>
+        
+        
              
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d989.9022329368959!2d-70.61528254327918!3d-33.43312516615078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c586497835ad%3A0xa929ba68e1ac6051!2sDuoc%20UC%20Casa%20Central!5e0!3m2!1ses!2scl!4v1680842819695!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
