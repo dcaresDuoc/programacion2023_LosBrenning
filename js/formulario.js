@@ -13,6 +13,7 @@ document.getElementById('formulario').addEventListener('submit', function(e) {
         if(data == 'true') {
             document.getElementById('txt_usuario').value = '';
             document.getElementById('txt_nombre').value = '';
+            document.getElementById('txt_correo').value = '';
             document.getElementById('txt_contraseña').value = '';
             alert('El usuario se insertó correctamente');
         } else {

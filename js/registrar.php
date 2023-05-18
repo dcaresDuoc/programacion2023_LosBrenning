@@ -7,10 +7,10 @@ $contraseña = isset($_POST['txt_contraseña']) ? $_POST['txt_contraseña'] : ''
 
 try{
     
-    $conexion new PDO('
+    $conexion = new PDO('
         mysql:host=localhost;
         port=3306;
-        dbname=prueba1_db',
+        dbname=prueba_db',
         'root',
         '');
     $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
